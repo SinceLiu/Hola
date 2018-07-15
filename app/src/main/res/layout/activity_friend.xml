@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="184dp"
+    android:orientation="horizontal"
+    android:layout_weight="0.02">
+
+    <ImageView
+        android:layout_width="53dp"
+        android:layout_height="53dp"
+        android:id="@+id/btn_back"
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="12dp"
+        android:src="@drawable/btn_return"/>
+
+
+    <ImageView
+        android:layout_width="147dp"
+        android:layout_height="147dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="26dp"
+        android:id="@+id/fri_head"
+         />
+
+    <ImageView
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="133dp"
+        android:layout_marginLeft="3dp"
+        android:src="@drawable/lv1"/>
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fri_name"
+            android:layout_marginTop="8dp"
+            android:text="Crystal Welch"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fri_sign"
+            android:text="Synth polaroid bitters chillwave pickled…"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#333"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="26dp">
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="343dp"
+        android:layout_height="92dp"
+        android:layout_marginLeft="9dp"
+        android:orientation="vertical"
+        android:background="@drawable/background_pic1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="62dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="42dp"
+                android:text="Colinland"
+                android:textColor="#FFF"
+                android:textSize="18dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I have hinted that I would often..."
+                android:textColor="#FFF"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="8dp"
+                android:textSize="14dp"
+                android:id="@+id/textView3" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginLeft="14.1dp"
+                android:background="@drawable/btn_comment"/>
+            <TextView
+                android:layout_width="16dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="7dp"
+                android:text="20"
+                android:textColor="#FFF"
+                />
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="12.1dp"
+                android:background="@drawable/btn_star"/>
+            <TextView
+                android:layout_width="16dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="7dp"
+                android:text="20"
+                android:textColor="#FFF"
+                />
+            <ImageView
+                android:layout_width="22.5dp"
+                android:layout_height="22.5dp"
+                android:layout_marginTop="4.2dp"
+                android:layout_marginLeft="12dp"
+                android:background="@drawable/btn_lovestar"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="343dp"
+        android:layout_height="92dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/background_pic2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="62dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="42dp"
+                android:text="Mackton"
+                android:textColor="#FFF"
+                android:textSize="18dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="It was a humorously perilous …"
+                android:textColor="#FFF"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="8dp"
+                android:textSize="14dp"
+                />
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginLeft="14.1dp"
+                android:background="@drawable/btn_comment"/>
+            <TextView
+                android:layout_width="16dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="7dp"
+                android:text="20"
+                android:textColor="#FFF"
+                />
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="12.1dp"
+                android:background="@drawable/btn_star"/>
+            <TextView
+                android:layout_width="16dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="7dp"
+                android:text="20"
+                android:textColor="#FFF"
+                />
+            <ImageView
+                android:layout_width="22.5dp"
+                android:layout_height="22.5dp"
+                android:layout_marginTop="4.2dp"
+                android:layout_marginLeft="12dp"
+                android:background="@drawable/btn_lovestar"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="343dp"
+        android:layout_height="92dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/background_pic3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="62dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="42dp"
+                android:text="Port Leilaniburgh"
+                android:textColor="#FFF"
+                android:textSize="18dp"
+                android:id="@+id/textView2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The monkey-rope is found in all …
+"
+                android:textColor="#FFF"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="8dp"
+                android:textSize="14dp"
+                />
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginLeft="14.1dp"
+                android:background="@drawable/btn_comment"/>
+            <TextView
+                android:layout_width="16dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="7dp"
+                android:text="20"
+                android:textColor="#FFF"
+                />
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="12.1dp"
+                android:background="@drawable/btn_star"/>
+            <TextView
+                android:layout_width="16dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="7dp"
+                android:text="20"
+                android:textColor="#FFF"
+                />
+            <ImageView
+                android:layout_width="22.5dp"
+                android:layout_height="22.5dp"
+                android:layout_marginTop="4.2dp"
+                android:layout_marginLeft="12dp"
+                android:background="@drawable/btn_lovestar"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5" />
+
+
+</LinearLayout>

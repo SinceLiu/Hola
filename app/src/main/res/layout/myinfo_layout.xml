@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="206dp"
+    android:orientation="horizontal"
+    android:background="#ECECEC"
+    android:layout_weight="0.02">
+
+    <ImageView
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/btn_cancel"
+        android:id="@+id/btn_cancel"
+        />
+
+    <ImageView
+        android:layout_width="147dp"
+        android:layout_height="147dp"
+        android:layout_weight="2"
+        android:layout_marginTop="28dp"
+        android:id="@+id/imageicon" />
+
+    <ImageView
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_ok"
+        android:src="@drawable/btn_ok"
+        android:layout_alignParentRight="true"
+      />
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="37dp"
+    android:background="#FFF">
+    <TextView
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:textSize="18dp"
+        android:layout_marginTop="7dp"
+        android:textColor="#000000"
+        android:text="昵称"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:id="@+id/user_name"
+        android:layout_marginTop="7dp"
+        android:textCursorDrawable="@null"
+        android:textColor="#9B9B9B"
+        android:background="@null"
+        android:text="Crystal"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:background="#FFF">
+        <TextView
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:textSize="18dp"
+            android:layout_marginTop="7dp"
+            android:textColor="#000000"
+            android:text="性别"/>
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginTop="7dp"
+            android:textColor="#9B9B9B"
+            android:background="@null"
+            android:id="@+id/user_gender"
+            android:textCursorDrawable="@null"
+            android:text="Girl"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="117dp"
+        android:background="#FFF">
+        <TextView
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:text="签名"/>
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#9B9B9B"
+            android:background="@null"
+            android:id="@+id/user_signature"
+            android:text="Synth polaroid bitters chillwa
+ve pickled…"
+            android:textCursorDrawable="@null"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:background="#ECECEC"/>
+
+    <Switch
+            android:text="我的位置"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:background="#FFF"
+            android:id="@+id/switch2"
+            android:layout_weight="0.3"/>
+
+    <Switch
+        android:text="赞提醒"
+        android:layout_marginLeft="9dp"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:background="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch3"
+        android:layout_weight="0.3"/>
+    <Switch
+        android:text="留言提醒"
+        android:background="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="9dp"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:id="@+id/switch4"
+        android:layout_weight="0.3" />
+</LinearLayout>

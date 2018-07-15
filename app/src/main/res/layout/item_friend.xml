@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:id="@+id/friend_head"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/friend_name"
+                android:text="Tiffany Simmons"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:layout_marginTop="14dp"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/friend_sign"
+                android:layout_marginLeft="10dp"
+                android:textSize="14dp"
+                android:layout_marginTop="7dp"
+                android:textColor="#333"
+                android:text="Retro occupy organic, stumptown …"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

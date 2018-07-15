@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lxx.hola.ShaiXuanDialogActivity"
+    android:background="@color/colorWhite">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:weightSum="1"
+        android:background="@color/colorBlue"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="筛选"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:layout_centerHorizontal="true"
+            />
+
+        <ImageButton
+            android:id="@+id/shaixuan_close"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/close"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+                <Space
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"/>
+                <CheckBox
+                    android:id="@+id/dongwu"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/button_selector1"
+                    android:checked="false"
+                    android:textColor="#ffffff"
+                    android:text="动物"
+                    android:button="@null"
+                    android:gravity="center"
+                    />
+                <Space
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"/>
+                <CheckBox
+                    android:id="@+id/zhiwu"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/button_selector1"
+                    android:checked="false"
+                    android:textColor="#ffffff"
+                    android:text="植物"
+                    android:button="@null"
+                    android:gravity="center"
+                    />
+                <Space
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"/>
+                <CheckBox
+                    android:id="@+id/tiyan"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/button_selector1"
+                    android:checked="false"
+                    android:textColor="#ffffff"
+                    android:text="体验"
+                    android:button="@null"
+                    android:gravity="center"
+                    />
+                <Space
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"/>
+            </TableRow>
+
+            <TableRow>
+                <Space
+                    android:layout_weight="2"
+                    android:layout_height="match_parent"/>
+                <CheckBox
+                    android:id="@+id/qiushi"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/button_selector1"
+                    android:checked="false"
+                    android:textColor="#ffffff"
+                    android:text="糗事"
+                    android:button="@null"
+                    android:gravity="center"
+                    />
+                <Space
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"/>
+
+                <CheckBox
+                    android:id="@+id/fengjing"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/button_selector1"
+                    android:checked="false"
+                    android:textColor="#ffffff"
+                    android:text="风景"
+                    android:button="@null"
+                    android:gravity="center"
+                    />
+                <Space
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"/>
+
+                <CheckBox
+                    android:id="@+id/shiwu"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/button_selector1"
+                    android:checked="false"
+                    android:textColor="#ffffff"
+                    android:text="食物"
+                    android:button="@null"
+                    android:gravity="center"
+                    />
+                <Space
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"/>
+
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Space
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/OK"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:text="确认"
+            android:textColor="#ffffff" />
+        <Space
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/Cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="取消"
+            android:textColor="#ffffff"
+            />
+        <Space
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>

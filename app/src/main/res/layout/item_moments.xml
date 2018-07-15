@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="1029px"
+        android:layout_height="276px"
+        android:layout_marginLeft="27px"
+        android:orientation="vertical"
+        android:background="@drawable/background_pic">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180px">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26.8px"
+            android:layout_marginTop="126px"
+            android:text="Colinland"
+            android:textColor="#FFF"
+            android:textSize="54px"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I have hinted that I would often..."
+            android:textColor="#FFF"
+            android:layout_marginLeft="26.8px"
+            android:layout_marginTop="24px"
+            android:textSize="42px"
+            />
+        <ImageView
+        android:layout_width="45px"
+        android:layout_height="45px"
+        android:layout_marginTop="26.8px"
+            android:layout_marginLeft="42.3px"
+        android:background="@drawable/btn_comment"/>
+        <TextView
+            android:layout_width="48px"
+            android:layout_height="45px"
+            android:layout_marginTop="21px"
+            android:text="20"
+            android:textColor="#FFF"
+            />
+        <ImageView
+            android:layout_width="45px"
+            android:layout_height="45px"
+            android:layout_marginTop="24px"
+            android:layout_marginLeft="42.3px"
+            android:background="@drawable/btn_star"/>
+        <TextView
+            android:layout_width="48px"
+            android:layout_height="45px"
+            android:layout_marginTop="21px"
+            android:text="20"
+            android:textColor="#FFF"
+            />
+        <ImageView
+            android:layout_width="67.6px"
+            android:layout_height="67.6px"
+            android:layout_marginTop="12.7px"
+            android:layout_marginLeft="35px"
+            android:background="@drawable/btn_lovestar"/>
+    </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

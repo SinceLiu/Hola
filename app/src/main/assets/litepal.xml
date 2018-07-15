@@ -1,0 +1,9 @@
+<litepal>
+    <dbname value = "hola" />
+
+    <version value = "1" />
+
+    <list>
+        <mapping class = "com.example.lxx.hola.remarkerInfo" />
+    </list>
+</litepal>
